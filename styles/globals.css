@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.avatar-uploader > .ant-upload {
+  width: 128px;
+  height: 128px;
+}
+.container {
+  height: 100vh;
+  /* background: linear-gradient(121deg, rgba(64,168,168,1) 0%, rgba(254,254,254,1) 100%); */
+  background: rgb(126, 108, 108);
+}
+.regis-topic {
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Dancing Script', cursive;
+  color: #fff;
+}
+.regis-button {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.form-register {
+  color: #fff;
+}
+.login-topic {
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Dancing Script', cursive;
+  color: #fff;
+}
+.login-button {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.home-topic {
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Dancing Script', cursive;
+  color: #fff;
+}
+.home-username {
+  text-align: center;
+}
+.home-password {
+  text-align: center;
+}
+.profile-username {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.container-admin {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2%;
+}
+.button-delete {
+  width: 5%;
+  background-color: rgb(245, 67, 67);
+  border: 0;
+  color: white;
+  border-radius: 20px;
+}
+.button-delete:hover{
+  transition: 0.6s;
+  cursor: pointer;
+  background-color: rgb(131, 10, 10);
+}
+.button-edit {
+  width: 5%;
+  background-color: rgb(67, 129, 245);
+  border: 0;
+  color: white;
+  border-radius: 20px;
+}
+.button-edit:hover{
+  transition: 0.6s;
+  cursor: pointer;
+  background-color: rgb(3, 65, 180);
+}
+.header-admin {
+  text-align: center;
+  font-size: 80px;
+  font-family: 'Dancing Script', cursive;
+}
+.admin-container {
+  height: 100vh;
+  text-align: center;
+  background: rgb(126, 108, 108);
+}
+.admin-container h1 {
+  color: rgb(255, 255, 255);
+}
+
